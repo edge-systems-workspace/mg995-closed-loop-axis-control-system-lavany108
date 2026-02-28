@@ -27,6 +27,8 @@ void loop() {
     } else {
         myServo.write(0);     // reset servo
     }
-
+    Serial.print("Distance: ");
+    Serial.print(distance);
+    Serial.println(" cm");
     delay(500);
 }
