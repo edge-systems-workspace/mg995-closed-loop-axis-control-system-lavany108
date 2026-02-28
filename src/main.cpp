@@ -1,3 +1,14 @@
+/**
+* @file main.cpp
+ * @brief MG995 Closed-Loop Axis Control System
+ * @author Lavanya
+ * @date 2026-02-28
+ *
+ * @details
+ * This program implements PWM-based control of MG995 servo motor.
+ * The system accepts angle input via Serial Monitor and moves
+ * the servo after validating input range (0–180 degrees).
+ */
 #include <Arduino.h>
 #include <Servo.h>
 Servo myServo;
