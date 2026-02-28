@@ -31,6 +31,7 @@ Example contents of `src/main.c` using Foo and Bar:
 ```
 #include <Foo.h>
 #include <Bar.h>
+#include <Servo.h>
 
 int main (void)
 {
